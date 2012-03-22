@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
+from olympo.util.constantes import BOOL_TRUE, BOOL_FALSE
 from sqlalchemy import Column, Sequence, Integer, ForeignKey
 from sqlalchemy.types import TIMESTAMP
 import datetime as dt
-from olympo.util.constantes import BOOL_TRUE, BOOL_FALSE
 
 # funciones    
 

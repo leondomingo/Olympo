@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from lxml import etree
-from neptuno.util import strtodate, strtotime
+from util import strtodate, strtotime
 from xlwt import Workbook, Formula
 from xlwt.Style import easyxf, XFStyle
 import re

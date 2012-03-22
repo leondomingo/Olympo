@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
+from email import Encoders
+from email.header import Header
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 import os
 import smtplib
-from email import Encoders
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from email.mime.base import MIMEBase
-from email.header import Header
 
 def enviar_email(remitente, destinatarios, asunto, mensaje, 
                  servidor, login, password, ficheros=[], html='', charset='iso-8859-1'):

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
+from const_datos_neptuno import CONF_HOST, CONF_DB, CONF_USER, CONF_PASSW, \
+    IMPLTYPE_POSTGRESQL, IMPLTYPE_FIREBIRD
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from const_datos_neptuno import CONF_HOST, CONF_DB, CONF_USER, CONF_PASSW
-from neptuno.const_datos_neptuno import IMPLTYPE_FIREBIRD, IMPLTYPE_POSTGRESQL
 
 class Conexion(object):
     

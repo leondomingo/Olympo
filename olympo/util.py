@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
+from decimal import Decimal
+import datetime as dt
 import re
 import simplejson
-import datetime as dt
-from decimal import Decimal
 
 def get_parametros(req, parametros):
     form = req.form

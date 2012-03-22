@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='Olympo',
-      version='0.0.2',
+      version='0.0.4',
       author=u'León Domingo',
       author_email='leon.domingo@ender.es',
       description=('A little set of utilities to manage Olympo projects'),

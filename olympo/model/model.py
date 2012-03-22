@@ -21,7 +21,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relation
 from sqlalchemy.schema import Column
 from sqlalchemy.types import Unicode, Text, Integer
-    
+
 DeclarativeBase = declarative_base()
 
 class Clases(DeclarativeBase):

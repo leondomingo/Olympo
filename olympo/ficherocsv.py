@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
+from decimal import Decimal
+from util import default_fmt_float, datetostr, timetostr
 import cStringIO
 import csv
-from decimal import Decimal
 import datetime
-from neptuno.util import default_fmt_float, datetostr, timetostr
 
 class FicheroCSV(object):
     

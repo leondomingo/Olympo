@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 from decimal import Decimal
+from ficherocsv import FicheroCSV
 from jinja2 import Environment, PackageLoader
-from neptuno.ficherocsv import FicheroCSV
-from neptuno.util import default_fmt_float
-from neptuno.xlsreport import XLSReport
 from sqlalchemy.types import INTEGER, NUMERIC, DATE, TIME, BOOLEAN, BIGINT, \
     DATETIME
+from util import default_fmt_float
+from xlsreport import XLSReport
 import datetime
 import re
 import sys
